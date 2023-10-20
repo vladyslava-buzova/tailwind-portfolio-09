@@ -3,6 +3,7 @@ import eco from './images/eco.png';
 import game from './images//game.png';
 import todo from './images/todo.png';
 import backery from './images/Backery.png';
+import portfolio from './images/portfolio-tailwind.png';
 
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
@@ -44,6 +45,15 @@ export const projects = [
     title: "Creative Bakery",
     text: "SEO optimized landing page 'Creative Bakery' with an adaptive design. The website can be viewed on any device. Implemented hamburger menu, and responsive gallery.",
     technologies: "HTML, CSS, Sass (SCSS), BEM",
+  },
+  {
+    id: nanoid(),
+    img: portfolio,
+    url: "https://vladyslava-buzova.github.io/tailwind-portfolio-09/",
+    github: "https://github.com/vladyslava-buzova/tailwind-portfolio-09",
+    title: "Portfolio-Tailwind",
+    text: "Game 2048 is written in pure JavaScript. In this game you need to combine numbered tiles in order to gain a higher numbered tile. You need to merge equal cells with keyboard arrows until you get 2048.",
+    technologies: "React,Tailwind",
   },
   {
     id: nanoid(),
