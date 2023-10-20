@@ -56,7 +56,7 @@ export const projects = [
     github: "https://github.com/vladyslava-buzova/tailwind-portfolio-09",
     title: "Portfolio-Tailwind",
     text: "Game 2048 is written in pure JavaScript. In this game you need to combine numbered tiles in order to gain a higher numbered tile. You need to merge equal cells with keyboard arrows until you get 2048.",
-    technologies: "React,Tailwind",
+    technologies: "React, Tailwind, CSS",
   },
   {
     id: nanoid(),

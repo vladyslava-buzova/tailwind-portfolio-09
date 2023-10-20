@@ -16,6 +16,7 @@ const Hero = () => {
           <button className="button-color hover:bg-black text-black hover:text-white duration-300 font-bold py-2 px-4 rounded-full">
             Download Resume
           </button>
+
           <ul className="flex gap-x-4 mt-4 align-elements align-center">
           {social.map((icon) => (
             <li key={icon.id}>
@@ -25,6 +26,7 @@ const Hero = () => {
             </li>
           ))}
         </ul>
+        
         </article>
         <article className="hidden md:block">
           <img src={heroImg} alt="" className="h-80 lg:h-96" />
