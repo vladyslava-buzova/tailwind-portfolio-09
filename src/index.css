@@ -7,3 +7,23 @@
     @apply mx-auto max-w-7xl px-8
   }
 }
+
+.footer-bg {
+  background-color: #e9fe65;
+  /* background-color: #6F80E8; */
+  color:black
+  
+  /* background-color2: #322fee;
+  background-color3: #f8f7fc;
+  background-color4: #111; */
+  /* background-color: #D0F854; */
+}
+
+.button-color {
+  background-color: #e9fe65;
+}
+
+.skills-color {
+  color: #6F80E8;
+}
+

@@ -8,6 +8,9 @@ import portfolio from './images/portfolio-tailwind.png';
 import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 
+import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from 'react-icons/fa';
+import { SiGmail } from 'react-icons/si';
+
 export const links = [
   // { id: nanoid(), href: '#home', text: 'home' },
   { id: nanoid(), href: '#about', text: 'about' },
@@ -19,19 +22,19 @@ export const skills = [
   {
     id: nanoid(),
     title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 text-emerald-500' />,
+    icon: <FaHtml5 className='h-16 w-16 skills-color' />,
     text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
   },
   {
     id: nanoid(),
     title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 text-emerald-500' />,
+    icon: <FaJs className='h-16 w-16 skills-color' />,
     text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
   },
   {
     id: nanoid(),
     title: 'React',
-    icon: <FaReact className='h-16 w-16 text-emerald-500' />,
+    icon: <FaReact className='h-16 w-16 skills-color' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
   },
 ];
@@ -92,3 +95,26 @@ export const projects = [
     technologies: "JS, HTML, CSS, Sass (SCSS)",
   },
 ];
+
+export const social = [
+  {
+    id: "icon-linkedin",
+    url: "https://www.linkedin.com/in/vladyslava-buzova/",
+    img: <FaLinkedin className="h-8 w-8 duration-300 hover:text-blue-500"/>
+  },
+  {
+    id: "icon-github",
+    url: "https://github.com/vladyslava-buzova",
+    img: <FaGithubSquare className="h-8 w-8 duration-300 hover:text-black"/>
+  },
+  {
+    id: "icon-facebook",
+    url: "https://www.facebook.com/profile.php?id=100083047789352",
+    img: <FaFacebookSquare className="h-8 w-8 duration-300 hover:text-blue-600"/>
+  },
+  {
+    id: "icon-email",
+    url: "mailto:vladyslava.buzova@gmail.com",
+    img: <SiGmail className="h-8 w-8 duration-300 hover:text-red-500"/>
+  },
+]
