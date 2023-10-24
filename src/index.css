@@ -9,7 +9,8 @@
 }
 
 .footer-bg {
-  background-color: #e9fe65;
+  /* background-color: #e9fe65; */
+  background-color: #EEFB7D;
   /* background-color: #6F80E8; */
   color:black
   
@@ -19,11 +20,62 @@
   /* background-color: #D0F854; */
 }
 
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+/* .vh {
+  height: 90vh;
+}  */
+
+.menu-color {
+  color:#323232;
+}
+
+.menu-color:hover {
+  color:#F2A7FA;
+  /* color:#5FA3F1; */
+}
+
 .button-color {
-  background-color: #e9fe65;
+  background-color: #EEFB7D;
+  /* background-color: #e9fe65; */
+}
+
+.yellow-bg {
+  background-color: #EEFB7D;
+  /* background-color: #e9fe65; */
+}
+
+.logo-color {
+  color: #5FA3F1;
 }
 
 .skills-color {
-  color: #6F80E8;
+  /* color: #6F80E8; */
+  color: #5FA3F1;
 }
 
+.pink {
+  color: #F2A7FA;
+  /* color: #FFA1FF; */
+}
+
+.blue {
+  color: #5FA3F1;
+}
+
+.yellow {
+  color: #EEFB7D;
+}
+
+.black {
+  color:#323232;
+}
+
+.text {
+  line-height: 26px;
+}

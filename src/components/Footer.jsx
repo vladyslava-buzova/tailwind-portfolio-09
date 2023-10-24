@@ -15,16 +15,16 @@ import { social } from '../data';
 
 const Footer = () => {
   return (
-    <footer className="footer-bg text-zinc-50 py-24" id='footer'>
-      <container className="align-elements">
+    <footer className="footer-bg text-zinc-950 py-16 flex items-center items" id='footer'>
+      <container className="align-elements content-center">
         <a href="#logo">
-          <SlArrowUp/>
+          <SlArrowUp className='h-8 w-8 duration-300 hover:text-blue-600 items'/>
         </a>
 
-        <ul className="flex gap-x-4 mt-4 align-elements align-center">
+        <ul className="gap-x-4 mt-4 flex items-center items">
           {social.map((icon) => (
             <li key={icon.id}>
-              <a href={icon.url}>
+              <a href={icon.url} className='mt-8 block'>
                 {icon.img}
               </a>
             </li>
@@ -32,7 +32,7 @@ const Footer = () => {
         </ul>
     
         {/* <span className="footer__devider"></span> */}
-        <p className='flex'>
+        <p className='flex mt-4'>
           &copy;2023 - Developed with 
             <AiFillHeart className="h-8 w-8 text-red-300 duration-300 hover:text-red-500"/> 
           by Vladyslava Buzova

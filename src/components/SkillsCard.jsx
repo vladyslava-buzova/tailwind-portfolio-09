@@ -4,7 +4,7 @@ const SkillsCard = ({ title, icon, text }) => {
   return (
     <article>
       <span>{icon}</span>
-      <h4 className="mt-6 font-bold text-black">{title}</h4>
+      <h4 className="mt-8 font-bold text-black">{title}</h4>
       <p className="mt-2 text-black">{text}</p>
     </article>
   )

@@ -9,7 +9,7 @@ import { nanoid } from 'nanoid';
 import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from 'react-icons/fa';
-import { SiGmail } from 'react-icons/si';
+import { SiGmail, SiAdobeindesign, SiAdobeillustrator, SiAdobephotoshop } from 'react-icons/si';
 
 export const links = [
   // { id: nanoid(), href: '#home', text: 'home' },
@@ -36,6 +36,36 @@ export const skills = [
     title: 'React',
     icon: <FaReact className='h-16 w-16 skills-color' />,
     text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'InDesign(Id)',
+    icon: <SiAdobeindesign className='h-16 w-16 skills-color' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Illustrator(Ai)',
+    icon: <SiAdobeillustrator className='h-16 w-16 skills-color' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Photoshop(Ps)',
+    icon: <SiAdobephotoshop className='h-16 w-16 skills-color' />,
+    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  },
+  {
+    id: nanoid(),
+    title: 'Figma',
+  },
+  {
+    id: nanoid(),
+    title: 'API',
+  },
+  {
+    id: nanoid(),
+    title: 'Tailwind',
   },
 ];
 
@@ -105,7 +135,7 @@ export const social = [
   {
     id: "icon-github",
     url: "https://github.com/vladyslava-buzova",
-    img: <FaGithubSquare className="h-8 w-8 duration-300 hover:text-black"/>
+    img: <FaGithubSquare className="h-8 w-8 duration-300 hover:text-zinc-600"/>
   },
   {
     id: "icon-facebook",
