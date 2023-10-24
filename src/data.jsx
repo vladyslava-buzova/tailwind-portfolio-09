@@ -13,8 +13,8 @@ import { SiGmail, SiAdobeindesign, SiAdobeillustrator, SiAdobephotoshop } from '
 
 export const links = [
   // { id: nanoid(), href: '#home', text: 'home' },
-  { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#skills', text: 'skills' },
+  { id: nanoid(), href: '#about', text: 'about' },
   { id: nanoid(), href: '#projects', text: 'projects' },
 ];
 
@@ -109,9 +109,9 @@ export const projects = [
   {
     id: nanoid(),
     img: todo,
-    url: "https://vladyslava-buzova.github.io/game_js_2048/",
-    github: "https://github.com/vladyslava-buzova/game_js_2048",
-    title: "Eco cosmetics",
+    url: "https://vladyslava-buzova.github.io/todo-react/",
+    github: "https://github.com/vladyslava-buzova/todo-react",
+    title: "ToDo",
     text: "The todo-list app is written in React. In the App there is an ability to add and remove todo. Added a counter to show the number of not completed todos. Implemented filter to switch between All/Active/Completed todos. Added ability to edit a todo. Implemented ability to remove all completed todos from the list. The button is visible if there is at least 1 completed todo in the list. Implemented toggle the completed status of all the todos using a checkbox. Implemented localStorage to save state of the APP.",
     technologies: "React, Typescript, LocalStorage, HTML, CSS",
   },
@@ -130,21 +130,25 @@ export const social = [
   {
     id: "icon-linkedin",
     url: "https://www.linkedin.com/in/vladyslava-buzova/",
-    img: <FaLinkedin className="h-8 w-8 duration-300 hover:text-blue-500"/>
+    img: <FaLinkedin className="h-8 w-8 duration-300 text-black hover:text-blue-500"/>,
+    classname:'social-bg blue'
   },
   {
     id: "icon-github",
     url: "https://github.com/vladyslava-buzova",
-    img: <FaGithubSquare className="h-8 w-8 duration-300 hover:text-zinc-600"/>
+    img: <FaGithubSquare className="h-8 w-8 duration-300 text-black hover:text-zinc-600"/>,
+    classname:'social-bg yellow'
   },
   {
     id: "icon-facebook",
     url: "https://www.facebook.com/profile.php?id=100083047789352",
-    img: <FaFacebookSquare className="h-8 w-8 duration-300 hover:text-blue-600"/>
+    img: <FaFacebookSquare className="h-8 w-8 duration-300  text-black hover:text-blue-600"/>,
+    classname:'social-bg blue'
   },
   {
     id: "icon-email",
     url: "mailto:vladyslava.buzova@gmail.com",
-    img: <SiGmail className="h-8 w-8 duration-300 hover:text-red-500"/>
+    img: <SiGmail className="h-8 w-8 duration-300  text-black hover:text-red-500"/>,
+    classname:'social-bg pink'
   },
 ]

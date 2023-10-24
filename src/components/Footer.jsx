@@ -7,6 +7,7 @@
 // }
 
 // export default Footer
+import Wave from './Wave'
 
 
 import { AiFillHeart } from 'react-icons/ai';
@@ -15,6 +16,9 @@ import { social } from '../data';
 
 const Footer = () => {
   return (
+    <>
+    <Wave />
+
     <footer className="footer-bg text-zinc-950 py-16 flex items-center items" id='footer'>
       <container className="align-elements content-center">
         <a href="#logo">
@@ -39,6 +43,8 @@ const Footer = () => {
         </p>
       </container>
     </footer>
+    </>
+    
   )
 }
 

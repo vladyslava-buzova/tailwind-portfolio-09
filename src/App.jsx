@@ -6,19 +6,19 @@ import Skill2 from "./components/Skill2"
 import About from "./components/About"
 import Projects from "./components/Projects"
 import Footer from "./components/Footer"
-import Wave from "./components/Wave"
+// import Wave from "./components/Wave"
 
 const App = () => {
   return (
     <>
       <Navbar />
       <Hero />
-      <Wave />
+      {/* <Wave /> */}
       {/* <Skills /> */}
       <Skill2 />
       <About />
       <Projects />
-      <Wave />
+      {/* <Wave /> */}
       <Footer />
     </>
   )
