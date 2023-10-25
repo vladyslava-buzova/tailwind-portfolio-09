@@ -12,9 +12,7 @@ const Skills = () => {
             <SkillsCard key={skill.id} {...skill} />
           )
         })}
-
       </div>
-
     </section>
   )
 }
