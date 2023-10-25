@@ -14,7 +14,7 @@ const ProjectCard = ({ img, url, github, title, text, technologies }) => {
       <div className='capitalize p-8'>
         <h2 className='text-xl tracking-wide font-medium'>{title}</h2>
         <p className='mt-4 text-zinc-950 leading-loose text'>{text}</p>
-        <p className='mt-4 text-zinc-950 leading-loose'>{technologies}</p>
+        <p className='mt-4 text-zinc-500 leading-loose'>{technologies}</p>
         <div className='mt-4 flex gap-x-4'>
           <a href={url} className='social-bg yellow'>
             <TbWorldWww  className='h-8 w-8 text-zinc-600 hover:text-black duration-300'/>

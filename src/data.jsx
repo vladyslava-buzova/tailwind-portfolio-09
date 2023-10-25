@@ -6,10 +6,11 @@ import backery from './images/Backery.png';
 import portfolio from './images/portfolio-tailwind.png';
 
 import { nanoid } from 'nanoid';
-import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
+// import { FaHtml5, FaJs, FaReact } from 'react-icons/fa';
 
 import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from 'react-icons/fa';
-import { SiGmail, SiAdobeindesign, SiAdobeillustrator, SiAdobephotoshop } from 'react-icons/si';
+// import { SiGmail, SiAdobeindesign, SiAdobeillustrator, SiAdobephotoshop } from 'react-icons/si';
+import { SiGmail } from 'react-icons/si';
 
 export const links = [
   // { id: nanoid(), href: '#home', text: 'home' },
@@ -19,53 +20,77 @@ export const links = [
 ];
 
 export const skills = [
+  // {
+  //   id: nanoid(),
+  //   title: 'HTML&CSS',
+  //   icon: <FaHtml5 className='h-16 w-16 skills-color' />,
+  //   text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+  // },
+  // {
+  //   id: nanoid(),
+  //   title: 'Javascript',
+  //   icon: <FaJs className='h-16 w-16 skills-color' />,
+  //   text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+  // },
+  // {
+  //   id: nanoid(),
+  //   title: 'React',
+  //   icon: <FaReact className='h-16 w-16 skills-color' />,
+  //   text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  // },
+  // {
+  //   id: nanoid(),
+  //   title: 'InDesign(Id)',
+  //   icon: <SiAdobeindesign className='h-16 w-16 skills-color' />,
+  //   text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  // },
+  // {
+  //   id: nanoid(),
+  //   title: 'Illustrator(Ai)',
+  //   icon: <SiAdobeillustrator className='h-16 w-16 skills-color' />,
+  //   text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  // },
+  // {
+  //   id: nanoid(),
+  //   title: 'Photoshop(Ps)',
+  //   icon: <SiAdobephotoshop className='h-16 w-16 skills-color' />,
+  //   text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+  // },
   {
     id: nanoid(),
-    title: 'HTML&CSS',
-    icon: <FaHtml5 className='h-16 w-16 skills-color' />,
-    text: 'Highly skilled in HTML & CSS, adeptly crafting visually appealing and responsive websites for optimal user experiences.',
+    title: 'JavaScript (ES6), Typescript, React',
   },
   {
     id: nanoid(),
-    title: 'Javascript',
-    icon: <FaJs className='h-16 w-16 skills-color' />,
-    text: 'Expertise in JavaScript, building interactive and dynamic web applications with a focus on seamless user interactions and functionality',
+    title: 'HTML5, CSS3, Sass (SCSS)',
   },
   {
     id: nanoid(),
-    title: 'React',
-    icon: <FaReact className='h-16 w-16 skills-color' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'Figma, Illustrator',
   },
   {
     id: nanoid(),
-    title: 'InDesign(Id)',
-    icon: <SiAdobeindesign className='h-16 w-16 skills-color' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'Fetch, REST API',
   },
   {
     id: nanoid(),
-    title: 'Illustrator(Ai)',
-    icon: <SiAdobeillustrator className='h-16 w-16 skills-color' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'Tailwind, Bulma',
   },
   {
     id: nanoid(),
-    title: 'Photoshop(Ps)',
-    icon: <SiAdobephotoshop className='h-16 w-16 skills-color' />,
-    text: 'Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.',
+    title: 'Git/Github, VS Code, Chrome Dev Tools, NPM',
   },
   {
     id: nanoid(),
-    title: 'Figma',
+    title: 'SQL basic(MySQL)',
   },
   {
     id: nanoid(),
-    title: 'API',
+    title: 'Trello, Jira',
   },
   {
     id: nanoid(),
-    title: 'Tailwind',
+    title: 'SEO optimization skills to increase website visibility',
   },
 ];
 

@@ -8,7 +8,7 @@ import { social } from '../data';
 const Hero = () => {
   return (
     <>
-    <div className="page text-zinc-950 pt-20" >
+    <div className="page text-zinc-950 pt-20 vh" >
       <div className="align-elements grid md:grid-cols-2 items-center gap-8">
         <article>
           {/* <h1 className="text-7xl font-bold tracking-wider">I&apos;m Vlada</h1> */}

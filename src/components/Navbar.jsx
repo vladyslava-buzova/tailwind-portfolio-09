@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="">
       <div className="align-elements justify-between py-4 flex flex-col sm:flex-row sm:gap-x-16 sm:items-center sm:py-8">
         <h2 className="text-3xl font-bold logo-color">
-          <span className='text-zinc-950' id='logo'>Vlada</span>.
+          V<span className='text-zinc-950' id='logo'>lada</span>.
         </h2>
 
         <div className="flex gap-x-3 ">{links.map((item) => {
