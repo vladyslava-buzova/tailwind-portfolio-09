@@ -6,8 +6,7 @@ const SectionTitle = ({ text }) => {
         {text}
       </h2>
     </div>
-  
+
 }
-// border-b border-gray-200
 
 export default SectionTitle

@@ -1,4 +1,3 @@
-// import SectionTitle from "./SectionTitle"
 import { projects } from '../data'
 import ProjectCard from './ProjectCard'
 import SectionTitle from "./SectionTitle"
@@ -14,7 +13,6 @@ const Projects = () => {
           )
         })}
       </div>
-      
     </section>
   )
 }

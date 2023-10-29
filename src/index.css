@@ -9,20 +9,12 @@
 }
 
 .footer-bg {
-  /* background-color: #e9fe65; */
   background-color: #EEFB7D;
-  /* background-color: #6F80E8; */
   color:black
-  
-  /* background-color2: #322fee;
-  background-color3: #f8f7fc;
-  background-color4: #111; */
-  /* background-color: #D0F854; */
 }
 
 .menu-hover {
   color:#323232;
-  /* color: #EEFB7D; */
 }
 
 .menu-hover:hover {
@@ -30,7 +22,6 @@
 }
 
 .social-bg {
-  /* background-color: #EEFB7D; */
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -42,7 +33,6 @@
 
 .pink {
   background-color: #F2A7FA;
-  /* color: #FFA1FF; */
 }
 
 .blue {
@@ -52,7 +42,6 @@
 .yellow {
   background-color: #EEFB7D;
 }
-
 
 .items {
   display: flex;
@@ -68,35 +57,18 @@
 .button {
   background-color: #EEFB7D;
   padding: 15px 40px;
-  /* background-color: #e9fe65; */
 }
 
 .yellow-bg {
   background-color: #EEFB7D;
-  /* background-color: #e9fe65; */
 }
 .blue-bg {
   background-color: #CBD4FB;
-  /* background-color: #e9fe65; */
-}
-
-/* .logo-color {
-  color: #5FA3F1;
-} */
-
-.skills-color {
-  /* color: #6F80E8; */
-  color: #5FA3F1;
 }
 
 .pink {
   color: #F2A7FA;
-  /* color: #FFA1FF; */
 }
-
-/* .blue {
-  color: #5FA3F1;
-} */
 
 .logo-color  {
   color: #CBD4FB;
@@ -112,5 +84,4 @@
 
 .text {
   line-height: 26px;
-  /* font-size: 14px; */
 }

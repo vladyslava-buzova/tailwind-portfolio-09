@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-// import SectionTitle from "./SectionTitle"
 import { FaGithubSquare } from 'react-icons/fa';
 import { TbWorldWww } from 'react-icons/tb';
 
