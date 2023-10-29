@@ -121,7 +121,7 @@ export const social = [
     id: "icon-github",
     url: "https://github.com/vladyslava-buzova",
     img: <FaGithubSquare className="h-8 w-8 duration-300 text-black hover:text-zinc-600"/>,
-    classname:'social-bg yellow'
+    classname:'social-bg pink'
   },
   {
     id: "icon-facebook",
